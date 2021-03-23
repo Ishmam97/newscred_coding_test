@@ -1,0 +1,30 @@
+#Users should be able to register with their email address. No need for any
+authentication.
+# In the home page users should be able to search all the movies in the app.
+# Users can see details for any movie like movie title, cast, category, release
+date, budget.
+# Users should be able to add movies to favorites. 
+# Users should be able to remove movies from their favorites.
+# Users should be able to see their personal details and movies they favorited.
+• Users can also search in the profile page to find only movies they added to
+their favorites. Users can search for either title, cast or category and all
+matching movies should be returned in ascending order of movie title.
+//user
+{
+    id:{
+    username:'',
+    email:'',
+    favourites: [],
+    }
+
+}
+//movies
+{
+    id:{
+        name:''
+        category:''
+        cast:'',
+        release
+        budget
+    }
+}
